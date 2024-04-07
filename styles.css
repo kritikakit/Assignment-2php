@@ -1,0 +1,138 @@
+/* css for AddProduct */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(222, 222, 222); /* Set background color to sky blue */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+header .logo {
+    margin-right: auto; /* Push logo to the left */
+    margin-left: auto; /* Push logo to the right */
+}
+
+header .logo img {
+    max-width: 150px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center navigation links horizontally */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last navigation item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.content-container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Adjust color as needed */
+}
+
+.content-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555; /* Adjust color as needed */
+}
+
+.content-container img {
+    max-width: 100%;
+    border: 4px solid #ffd700; /* Golden border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    transition: transform 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.content-container img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+    border-color: #ffdf00; /* Change border color on hover */
+}
+.ka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ka h2,
+.ka p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.container > div {
+    margin-top: 50px;
+}
+
+.ka img {
+    max-width: 250px; /* Adjust the width as needed */
+    border: 2px solid #FFD700; /* Add a border around the image */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+    background-color: gray;
+}
+
+.ka img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Vaseline Products</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header> 
+        <div class="container">
+            <div class="logo">
+                <img src="vaselinelogo.avif" alt="Vaseline Logo"> 
+            </div>
+            <nav> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AddProduct.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main> 
+        <div class="container">
+            <h1>Add Vaseline Product</h1>
+            <div class="content-container">
+                <p>We want to keep all skin healthy. That’s why we offer superior products for moisturization and have formulations for specific skin concerns and needs. We aim to rescue dry skin to its best healthy self.</p>
+                <img src="vaseline 1.avif" alt="Vaseline">
+                </div>
+                </p>
+                <div class="ka">
+               <h2>Healthy Skin Is Beautiful skin</h2>
+               <p>We want to give every body healthy skin. And when we say every body, we mean it. No matter your age, gender, or ethnicity, we are here for you. Your journey to beautiful, healthy skin starts with Vaseline®.</p>
+               <img src="vaseline 2.avif" alt="Vaseline">
+            </div>
+
+            <h2>Product Information</h2>
+            <form action="View.php" method="POST" enctype="multipart/form-data"> 
+                <label for="name">Product Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="4" required></textarea><br>
+                <label for="price">Price:</label><br>
+                <input type="number" id="price" name="price" min="0" step="0.01" required><br>
+                <label for="product-number">Product Number:</label><br>
+                <input type="text" id="product-number" name="product-number" required><br>
+                <label for="image">Product Image:</label><br>
+                <input type="file" id="image" name="image" accept="image/*" required><br>
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+
+        <div class="map">
+            <b>LOOKING FOR MORE SKIN HEALTH TIPS?</b><hr>
+          <br>Healthy skin is essential to living your best life. Learn more about how to take care of your skin so you can look and feel your best.</br>
+        </div>
+    </main>
+    <footer> 
+        <div class="container">
+            <p>&copy; 2024 Vaseline Corporation</p> 
+        </div>
+    </footer>
+</body>
+</html>

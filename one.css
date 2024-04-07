@@ -1,0 +1,85 @@
+/*Css for View.php */
+
+body{
+    background-color: rgb(213, 212, 212);
+}
+body, table {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #635858;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #5d5b5b;
+}
+
+.product-image img {
+    width: 100px;
+    height: auto;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo {
+    margin-right: 20px; /* Adjust margin for spacing */
+}
+
+.logo img {
+    width: 150px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+nav ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center navigation links horizontally */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last navigation item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
