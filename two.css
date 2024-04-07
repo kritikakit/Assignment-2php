@@ -17,7 +17,7 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Adjust the width of the logo */
+    width: 100px;
     height: auto;
 }
 
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Change color on hover */
+    color: #ffd700; 
 }
 
 .contact-container {
@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 .contact-form textarea {
-    height: 150px; /* Adjust textarea height as needed */
+    height: 150px; 
 }
 
 .contact-form button[type="submit"] {
@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .contact-form button[type="submit"]:hover {
-    background-color: #555; /* Darken color on hover */
+    background-color: #555; 
 }
 
 footer {
@@ -90,6 +90,6 @@ footer {
     text-align: center;
 }
 .logo img {
-    width: 100px !important; /* Adjust the width of the logo */
+    width: 100px !important; 
     height: auto;
 }
