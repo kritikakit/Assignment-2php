@@ -7,7 +7,7 @@
     <title>View Products</title>
     <link rel="stylesheet" href="one.css"> 
 </head>
-<header> <!-- Header section -->
+<header> 
         <div class="container">
             <div class="logo">
                 <img src="vaselinelogo.avif" alt="Vaseline Logo"> 
@@ -88,7 +88,7 @@ $conn->close();
 ?>
 
 </div>
-<footer> <!-- Footer section -->
+<footer> 
         <div class="container">
             <p>&copy; 2024 Vaseline Corporation</p> 
         </div>
