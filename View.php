@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Products</title>
-    <link rel="stylesheet" href="one.css"> <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="one.css"> 
 </head>
 <header> <!-- Header section -->
         <div class="container">
             <div class="logo">
-                <img src="vaselinelogo.avif" alt="Vaseline Logo"> <!-- Vaseline logo image -->
+                <img src="vaselinelogo.avif" alt="Vaseline Logo"> 
             </div>
             <nav> 
                 <ul>
@@ -44,7 +44,7 @@ $price = $_POST['price'];
 $product_number = $_POST['product-number'];
 $image = $_FILES['image']['name'];
 
-// Move uploaded file to desired directory
+
 $target_dir = "advertize/";
 $target_file = $target_dir . basename($_FILES["image"]["name"]);
 move_uploaded_file($_FILES["image"]["tmp_name"], $target_file);
@@ -61,7 +61,7 @@ if ($stmt->execute()) {
 
 $stmt->close();
 
-// Fetch stored products
+// Fetching stored products
 $sql_fetch = "SELECT * FROM mineinfo";
 $result = $conn->query($sql_fetch);
 
