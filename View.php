@@ -90,7 +90,7 @@ $conn->close();
 </div>
 <footer> <!-- Footer section -->
         <div class="container">
-            <p>&copy; 2024 Vaseline Corporation</p> <!-- Copyright information -->
+            <p>&copy; 2024 Vaseline Corporation</p> 
         </div>
     </footer>
 
