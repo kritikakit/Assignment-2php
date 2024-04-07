@@ -47,9 +47,9 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 footer {
     background-color: #333;
@@ -58,17 +58,17 @@ footer {
     text-align: center;
 }
 .logo {
-    margin-right: 20px; /* Adjust margin for spacing */
+    margin-right: 20px; 
 }
 
 .logo img {
-    width: 150px; /* Set the width of the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px;
+    height: auto; 
 }
 nav ul {
     list-style-type: none;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center navigation links horizontally */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove margin for the last navigation item */
+    margin-right: 0; 
 }
 
 nav ul li a {
